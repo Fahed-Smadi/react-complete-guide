@@ -1,0 +1,38 @@
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    background: #f2f2f2;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.calendar-date {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    width: -webkit-fill-available;
+}
+
+.calendar-time {
+    font-size: 1.2em;
+    color: #999;
+    text-align: center;
+    padding: 5px 0;
+    width: -webkit-fill-available;
+}
+
+.calendar-day {
+    font-size: 1.2em;
+    color: #999;
+    text-align: center;
+    padding: 5px 0;
+    width: -webkit-fill-available;
+}
